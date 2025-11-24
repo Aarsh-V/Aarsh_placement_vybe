@@ -42,7 +42,7 @@ const handleClick=()=>{
      handleViewers()
 navigate(`/story/${userName}`)
   }
-}
+} 
   return (
     <div className='flex flex-col w-[80px]'>
       <div className={`w-[80px] h-[80px] ${!story?null:!viewed?"bg-gradient-to-b  from-blue-500 to-blue-950":"bg-gradient-to-r from-gray-500 to-black-800"}  rounded-full flex items-center justify-center relative`}  onClick={handleClick}>
